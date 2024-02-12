@@ -4,21 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen grid place-content-center radial-blue">
+      {/* <h1 className="text-3xl font-bold underline text-red-600">
+      Simple React Typescript Tailwind Sample
+    </h1> */}
+      <div className="w-52 h-52 bg-green-500 rounded-full shadow-2xl grid place-content-center">
+        <div className="bg-teal-200 w-32 h-32 rounded-full grid place-content-center">
+          <div className="bg-red-500 h-16 w-16 rounded-full"></div>
+        </div>
+      </div>
+
     </div>
   );
 }
